@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Head from 'next/head'
 const PricingPlans = ({data}) => {
     if(!data){
         return (
@@ -11,6 +11,9 @@ const PricingPlans = ({data}) => {
     const{pricing} = data.data
   return (
     <>
+    <Head>
+        <title>Pricing</title>
+      </Head>
     <section className="container mx-auto pt-10 ">
   <div className="main w-full    ">
     <div className='flex justify-center items-center' >

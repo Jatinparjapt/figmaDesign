@@ -2,11 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Ad1 from "../Images/Ad1.png"
 import Ad2 from "../Images/Ad1.png"
-
+import Head from 'next/head'
 const GallerySection = () => {
   return (
     <>
-    
+    <Head>
+        <title>Gallery </title>
+      </Head>
      <section className='container mx-auto pt-10  ' >
         <div className='flex flex-wrap justify-center md:items-center  w-auto ' >
             

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import HeroImage from "../Images/Hero.png"
+import Head from 'next/head'
 const HeroSection = ({data}) => {
     // console.log(data.data.hero)
     // console.log(data)
@@ -16,6 +17,9 @@ const HeroSection = ({data}) => {
     const {hero} = data.data
   return (
     <>
+    <Head>
+        <title>Home</title>
+      </Head>
     <section className='container mx-auto pt-20 ' >
         <div className='flex flex-wrap justify-center md:items-center  w-auto ' >
             

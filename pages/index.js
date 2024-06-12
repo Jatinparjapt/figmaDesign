@@ -9,6 +9,7 @@ import PricingPlans from "./Components/PricingPlans";
 import Footer from "./Components/Footer"
 import axios from "axios";
 import {  Element } from 'react-scroll';
+// import Head from "next/head";
 
 // import Style from "./Components/Style";
 const inter = Inter({ subsets: ["latin"] });
@@ -16,6 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home({ data }) {
   return (
     <>
+   
     <Header/>
     <Element name="hero">
         <HeroSection data={data} />
@@ -39,7 +41,7 @@ export default function Home({ data }) {
 }
 export async function getStaticProps() {
   try {
-    const res = await axios.get('http://localhost:3000/api/hello');
+    const res = await axios.get('https://batch-system-smoky.vercel.app/api/hello');
     const data = res.data;
       // console.log(data)
     return {

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Feature from "../Images/Feature.png"
+import Head from 'next/head'
 // import Style from './Style'
 const FeatureSection = ({data}) => {
     
@@ -14,6 +15,9 @@ const FeatureSection = ({data}) => {
     const {features} = data.data
   return (
     <>
+    <Head>
+        <title>Features</title>
+      </Head>
      <section className='container mx-auto pt-10  ' >
         <div className='flex flex-wrap justify-center md:items-center  w-auto ' >
             

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import HeroImage from "../Images/Hero.png"
-
+// import HeroImage from "../Images/Hero.png"
+import Head from 'next/head'
 const TestimonialSection = ({data}) => {
   if(!data){
     return (
@@ -13,6 +13,9 @@ const TestimonialSection = ({data}) => {
 const {testimonials} = data.data
   return (
     <>
+    <Head>
+        <title>Testimonials</title>
+      </Head>
     <section className='container mx-auto  pt-20' >
         <div className="main  ">
             <div className="first ml-20 flex flex-wrap justify-center md:items-center mx-auto w-auto ">
