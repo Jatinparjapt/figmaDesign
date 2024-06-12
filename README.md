@@ -29,8 +29,8 @@ This project is a landing page built with Next.js and styled using Tailwind CSS.
 - Next.js
 - Tailwind CSS
 - React Scroll
-- Axios (for data fetching, optional)
-- TypeScript (optional but preferred)
+- Axios (for data fetching)
+
 
 ## Getting Started
 
