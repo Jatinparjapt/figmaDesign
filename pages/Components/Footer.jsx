@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <footer className='font-semibold p-4 ' >
-        <div className='inline-grid grid-cols-2 md:flex justify-center mx-auto  md:place-content-around  ' >
+        <div className='inline-grid grid-cols-2 md:flex justify-center mx-auto  md:place-content-around cursor-pointer  ' >
             <div className="first">
                 <div className="logo">
                     <div>Logo</div>

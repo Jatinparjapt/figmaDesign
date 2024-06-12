@@ -11,7 +11,7 @@ const Header = () => {
      
       <span className="ml-3 text-xl">Logo</span>
     </Link>
-    <nav className="md:ml-auto space-x-5 font-semibold md:mr-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="md:ml-auto cursor-pointer space-x-5 font-semibold md:mr-auto flex flex-wrap items-center text-base justify-center">
     <Link className='hover:text-pink-500' to='hero' smooth={true} duration={500} >Home</Link>
                     <Link className='hover:text-pink-500' to='features' smooth={true} duration={500} >Feature</Link>
                     <Link className='hover:text-pink-500' to='testimonials' smooth={true} duration={500} >Testimonial</Link>
